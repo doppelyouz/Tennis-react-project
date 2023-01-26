@@ -1,4 +1,4 @@
-import Test from './Test';
+import AboutClubPage from './AboutClubPage';
 import Home from './Home';
 
-export {Test, Home};
+export {AboutClubPage, Home};
