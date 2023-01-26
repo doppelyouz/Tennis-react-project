@@ -1,19 +1,13 @@
 .photoKart {
-    margin: 0 auto;
-    width: 100%;
-    max-width: 1296px;
     margin-top: 80px;
-
     .photoKart_title {
         font-size: 36px;
         font-weight: 700;
         line-height: 50px;
         margin-bottom: 60px;
     }
-
     .mySwiper {
         margin: 20px;
-
         .swiper {
             width: 100%;
             height: 100%;
@@ -36,7 +30,6 @@
             -webkit-align-items: center;
             align-items: center;
         }
-
         .swiper_slide img {
             display: block;
             width: 100%;
@@ -52,4 +45,5 @@
             position: absolute;
         }
     }
+    margin-bottom: 150px;
 }
