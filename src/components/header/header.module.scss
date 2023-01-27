@@ -1,5 +1,4 @@
 .header {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(about.png);
     .container {
         margin: 0 auto;
         width: 100%;
@@ -17,7 +16,10 @@
             display: flex;
             .menu_item {
                 font-size: 14px;
-                margin: 0px 20px;
+                margin-right: 40px;
+                &:last-child {
+                    margin-right: 0px;
+                }
             }
         }
         .icons {
@@ -32,6 +34,9 @@
                 height: 15px;
                 width: 24px;
             }
+        }
+        .link {
+            color:white;
         }
     }
     
