@@ -1,0 +1,56 @@
+.footer {
+    width: 100%;
+    background: #F7ECE1;
+    .container {
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1296px;
+        padding: 38px 0px;
+        display: flex;
+        align-items: center;
+        .rights {
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: 0em;
+            text-align: left;
+            opacity: 0.3;
+            color: #333333;
+        }
+        .menu {
+            color: black;
+            margin-left: 104px;
+            display: flex;
+            .menu_item {
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                margin-right: 40px;
+                &:last-child {
+                    margin-right: 0px;
+                }
+            }
+        }
+        .icons {
+            margin-left: 188px;
+            display: flex;
+            .youtubeImage {
+                height: 19px;
+                width: 28px;
+                margin-right: 25px;
+                color:#8D86C9;
+            }
+            .vkImage {
+                height: 15px;
+                width: 24px;
+                color:#8D86C9;
+                margin-right: 25px;
+            }
+            .telegaImage {
+                height: 15px;
+                width: 24px;
+                color:#8D86C9;
+            }
+        }
+    }
+}

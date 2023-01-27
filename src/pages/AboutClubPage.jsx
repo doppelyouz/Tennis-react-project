@@ -1,14 +1,20 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 
-import {Header, PhotoKart} from '../components/About'
+import {Header, PhotoKart, AboutClub, Rules} from '../components/About'
+import Footer from '../components/footer/Footer';
+
+import './aboutPage.scss';
 
 const AboutClubPage = () => {
   return (
     <>
         <Header />
-        <PhotoKart />
-        <Link to="/">Main</Link>
+        <div className="contaier">
+          <PhotoKart />
+          <AboutClub />
+          <Rules />
+        </div>
+        <Footer />
     </>
   )
 }

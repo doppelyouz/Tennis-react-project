@@ -17,6 +17,7 @@ const PhotoKart = () => {
         <Swiper navigation={true} modules={[Navigation]} className={s.mySwiper + " " + s.swiper}>
             <SwiperSlide className={s.swiper_slide}>
                 <img src={swiper1} alt="swiperPhoto" />
+                <div className={s.swiperTitle}>Летний корт</div>
             </SwiperSlide>
             <SwiperSlide className={s.swiper_slide}>Slide 2</SwiperSlide>
             <SwiperSlide className={s.swiper_slide}>Slide 3</SwiperSlide>

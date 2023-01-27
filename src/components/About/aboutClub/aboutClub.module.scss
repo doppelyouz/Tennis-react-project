@@ -1,0 +1,59 @@
+.about {
+    .about_title {
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 50px;
+        margin-bottom: 60px;
+    }
+    .about_info {
+        display: flex;
+        .arenaPhoto {
+            position: relative;
+            margin: 70px 0px;
+        }
+        .tennisInfo {
+            height: 654px;
+            max-width: 856px;
+            width: 100%;
+            background-color:#F7ECE1;
+            margin-left: -76px;
+            padding: 70px 60px 90px 146px;
+            .tennisInfo_title {
+                width: 630px;
+                font-size: 36px;
+                font-weight: 700;
+                line-height: 50px;
+                margin-bottom: 40px;
+            }
+            .tennisInfo_description {
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 20px;
+                margin-bottom: 58px;
+            }
+            .numberOf {
+                display: flex;
+                .courts {
+                    display: flex;
+                    align-items: center;
+                    .summerCourts {
+                        width: 124px;
+                        margin-right: 36px;
+                    }
+                    .number {
+                        font-weight: 1000;
+                        font-size: 70px;
+                        margin-right: 16px;
+                        color: #8D86C9;
+                    }
+                    .number_desc {
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+    margin-bottom: 120px;
+}
