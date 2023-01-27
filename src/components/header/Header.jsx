@@ -1,8 +1,6 @@
 import React from 'react'
 import Banner from '../banner/Banner';
 
-import { Link } from "@mui/material";
-
 import logo from './Logo.png';
 import yt from './yt.png';
 import vk from './vk.png';
@@ -11,9 +9,9 @@ import s from './header.module.scss'
 
 const Header = ({img, title}) => {
   return (
-    <div className={s.header} style={{background: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("${img}")`}}>;
+    <div className={s.header} style={{background: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("${img}")`}}>
       <div className={s.container}>
-        <img src={logo} alt="logo" className={s.logo}/>
+        <img src={logo} alt="logo" className={s.logo} />
         <nav>
           <ul className={s.menu}>
             {/* <li className={s.menu_item}><Link to="/" className={s.link}>Главная</Link></li> */}

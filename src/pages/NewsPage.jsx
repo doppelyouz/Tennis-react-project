@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {News, OneNews} from '../components/News';
+import {News} from '../components/News';
 
 import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
@@ -12,12 +12,12 @@ import './pages.scss';
 const NewsPage = () => {
   return (
     <>
-    <Header img={NewsImage} title="Новости" />
-    <div className="container">
-      <News />
-    </div>
-    <Footer />
-</>
+      <Header img={NewsImage} title="Новости" />
+      <div className="container">
+        <News />
+      </div>
+      <Footer />
+    </>
   )
 }
 

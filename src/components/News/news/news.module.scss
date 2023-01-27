@@ -1,0 +1,10 @@
+.news {
+    margin-top: 110px;
+    .news_items {
+        padding: 30px 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 104px;
+    }
+    margin-bottom: 120px;
+}
