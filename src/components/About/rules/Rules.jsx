@@ -5,7 +5,7 @@ import Tab from "@mui/material/Tab";
 import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 
-import EastIcon from "@mui/icons-material/East";
+import MinimizeIcon from '@mui/icons-material/Minimize';
 
 import s from "./rules.module.scss";
 
@@ -110,43 +110,43 @@ const Rules = () => {
             <ul>
               <li className={s.list3__ul_item}>
                 <div className={s.strip}>
-                  <EastIcon />
+                  <MinimizeIcon />
                 </div>
                 <p>Разовое посещение;</p>
               </li>
               <li className={s.list3__ul_item}>
                 <div className={s.strip}>
-                  <EastIcon />
+                  <MinimizeIcon />
                 </div>
                 <p>Абонементы с фиксированным временем;</p>
               </li>
               <li className={s.list3__ul_item}>
                 <div className={s.strip}>
-                  <EastIcon />
+                  <MinimizeIcon />
                 </div>
                 <p>Абонементы на 30 и 50 часов;</p>
               </li>
               <li className={s.list3__ul_item}>
                 <div className={s.strip}>
-                  <EastIcon />
+                  <MinimizeIcon />
                 </div>
                 <p>Индивидуальные занятия с тренером;</p>
               </li>
               <li className={s.list3__ul_item}>
                 <div className={s.strip}>
-                  <EastIcon />
+                  <MinimizeIcon />
                 </div>
                 <p>«Клуб любителей тенниса»;</p>
               </li>
               <li className={s.list3__ul_item}>
                 <div className={s.strip}>
-                  <EastIcon />
+                  <MinimizeIcon />
                 </div>
                 <p>Детские группы разных возрастов и уровня подготовки;</p>
               </li>
               <li className={s.list3__ul_item}>
                 <div className={s.strip}>
-                  <EastIcon />
+                  <MinimizeIcon />
                 </div>
                 <p>Взрослые группы</p>
               </li>
@@ -157,31 +157,31 @@ const Rules = () => {
             <ul>
               <li className={s.list3__ul_item}>
                 <div className={s.strip}>
-                  <EastIcon />
+                  <MinimizeIcon />
                 </div>
                 <p>Разового посещения — 60 минут;</p>
               </li>
               <li className={s.list3__ul_item}>
                 <div className={s.strip}>
-                  <EastIcon />
+                  <MinimizeIcon />
                 </div>
                 <p>Разового посещения на летних кортах — 55 минут;</p>
               </li>
               <li className={s.list3__ul_item}>
                 <div className={s.strip}>
-                  <EastIcon />
+                  <MinimizeIcon />
                 </div>
                 <p>Абонемента — 30 часов;</p>
               </li>
               <li className={s.list3__ul_item}>
                 <div className={s.strip}>
-                  <EastIcon />
+                  <MinimizeIcon />
                 </div>
                 <p>Индивидуальное занятие с тренером — 1 час;</p>
               </li>
               <li className={s.list3__ul_item}>
                 <div className={s.strip}>
-                  <EastIcon />
+                  <MinimizeIcon />
                 </div>
                 <p>
                   Занятия с тренером в группах (детских/взрослых) — согласно
@@ -222,7 +222,7 @@ const Rules = () => {
             <ul>
               <li className={s.list3__ul_item}>
                 <div className={s.strip}>
-                  <EastIcon />
+                  <MinimizeIcon />
                 </div>
                 <p>
                   когда Член клуба заблаговременно (не менее суток) известил
@@ -231,7 +231,7 @@ const Rules = () => {
               </li>
               <li className={s.list3__ul_item}>
                 <div className={s.strip}>
-                  <EastIcon />
+                  <MinimizeIcon />
                 </div>
                 <p>
                   неблагоприятных погодных условий для игры на открытых кортах,
