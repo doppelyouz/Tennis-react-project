@@ -51,7 +51,7 @@ const Rules = () => {
   return (
     <div className={s.rules}>
       <h2 className={s.rules_title}>Правила</h2>
-      <Box sx={{ display: "flex" }}>
+      <Box sx={{ display: "flex" }} className={s.tab}>
         <Tabs orientation="vertical" value={value} onChange={handleChange}>
           <Tab
             label="1. Общие положения"
@@ -96,13 +96,13 @@ const Rules = () => {
             }
           />
         </Tabs>
-        <TabPanel value={value} index={0} className={s.tab}>
+        <TabPanel value={value} index={0}>
           Item One
         </TabPanel>
-        <TabPanel value={value} index={1} className={s.tab}>
+        <TabPanel value={value} index={1}>
           Item Two
         </TabPanel>
-        <TabPanel value={value} index={2} className={s.tab}>
+        <TabPanel value={value} index={2}>
           <div className={s.list3_31}>
             <p className={s.list_item__title}>
               3.1. ТК предоставляет Членам клуба:
@@ -241,16 +241,16 @@ const Rules = () => {
             </ul>
           </div>
         </TabPanel>
-        <TabPanel value={value} index={3} className={s.tab}>
+        <TabPanel value={value} index={3}>
           Item Four
         </TabPanel>
-        <TabPanel value={value} index={4} className={s.tab}>
+        <TabPanel value={value} index={4}>
           Item Five
         </TabPanel>
-        <TabPanel value={value} index={5} className={s.tab}>
+        <TabPanel value={value} index={5}>
           Item Six
         </TabPanel>
-        <TabPanel value={value} index={6} className={s.tab}>
+        <TabPanel value={value} index={6}>
           Item Seven
         </TabPanel>
       </Box>
