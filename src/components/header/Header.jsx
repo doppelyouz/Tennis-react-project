@@ -7,7 +7,7 @@ import vk from './vk.png';
 
 import s from './header.module.scss'
 
-const Header = ({img, title}) => {
+const Header = ({img, title, Component}) => {
   return (
     <div className={s.header} style={{background: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("${img}")`}}>
       <div className={s.container}>
@@ -33,7 +33,7 @@ const Header = ({img, title}) => {
         </div>
       </div>
       <div className={s.hr}></div>
-      <Banner title={title}/>
+      {Component ? <Component title={title}/> : <Banner title={title}/> }
     </div>
   )
 }

@@ -1,13 +1,23 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import BannerMain from '../components/bannerMain/BannerMain';
 
-const Home = () => {
+import Footer from '../components/footer/Footer';
+import Header from '../components/header/Header';
+
+import mainImage from '../images/mainImage.png';
+
+import './pages.scss';
+
+const AboutClubPage = () => {
   return (
     <>
-      <Link to="about-club">About Club</Link>
-      <Link to="news">News</Link>
+        <Header img={mainImage} title="Петербургский теннисный клуб имени М.А. Пасечникова" Component={BannerMain}/>
+        <div className="container">
+            
+        </div>
+        <Footer />
     </>
   )
 }
 
-export default Home
+export default AboutClubPage
