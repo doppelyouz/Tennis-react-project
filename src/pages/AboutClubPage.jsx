@@ -1,15 +1,18 @@
 import React from 'react'
 
-import {Header, PhotoKart, AboutClub, Rules} from '../components/About'
+import { PhotoKart, AboutClub, Rules} from '../components/About'
 import Footer from '../components/footer/Footer';
+import Header from '../components/header/Header';
 
-import './aboutPage.scss';
+import aboutClubImage from '../images/about.png';
+
+import './pages.scss';
 
 const AboutClubPage = () => {
   return (
     <>
-        <Header />
-        <div className="contaier">
+        <Header img={aboutClubImage} title="О клубе" />
+        <div className="container">
           <PhotoKart />
           <AboutClub />
           <Rules />

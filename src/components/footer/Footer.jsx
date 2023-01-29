@@ -16,7 +16,7 @@ const Footer = () => {
                     <li className={s.menu_item}>Главная</li>
                     <li className={s.menu_item}>О клубе</li>
                     <li className={s.menu_item}>Турниры</li>
-                    <li className={s.menu_item}>Услуги</li>
+                    <li className={s.menu_item}>Новости</li>
                     <li className={s.menu_item}>Детский теннис</li>
                     <li className={s.menu_item}>Галерея</li>
                     <li className={s.menu_item}>Цены</li>
