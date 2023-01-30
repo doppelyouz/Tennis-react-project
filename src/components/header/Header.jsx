@@ -5,6 +5,8 @@ import logo from './Logo.png';
 import yt from './yt.png';
 import vk from './vk.png';
 
+import {Link} from "react-router-dom";
+
 import s from './header.module.scss'
 
 const Header = ({img, title, Component}) => {
@@ -14,13 +16,10 @@ const Header = ({img, title, Component}) => {
         <img src={logo} alt="logo" className={s.logo} />
         <nav>
           <ul className={s.menu}>
-            {/* <li className={s.menu_item}><Link to="/" className={s.link}>Главная</Link></li> */}
-            {/* <li className={s.menu_item}><Link to="about-club" className={s.link}>О клубе</Link></li> */}
-            <li className={s.menu_item}>Главная</li>
-            <li className={s.menu_item}>О клубе</li>
+            <li className={s.menu_item}><Link to="/" className={s.link}>Главная</Link></li>
+            <li className={s.menu_item}><Link to="/about-club" className={s.link}>О клубе</Link></li>
             <li className={s.menu_item}>Турниры</li>
-            <li className={s.menu_item}>Новости</li>
-            {/* <li className={s.menu_item}><Link to="news" className={s.link}>Новости</Link></li> */}
+            <li className={s.menu_item}><Link to="/news" className={s.link}>Новости</Link></li>
             <li className={s.menu_item}>Детский теннис</li>
             <li className={s.menu_item}>Галерея</li>
             <li className={s.menu_item}>Цены</li>

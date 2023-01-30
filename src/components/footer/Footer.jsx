@@ -6,6 +6,8 @@ import yt from './ytP.png';
 import vk from './vkP.png';
 import telega from './telegramP.png';
 
+import {Link} from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className={s.footer}>
@@ -13,10 +15,10 @@ const Footer = () => {
             <div className={s.rights}>2022 © Все права защищены.</div>
             <nav>
                 <ul className={s.menu}>
-                    <li className={s.menu_item}>Главная</li>
-                    <li className={s.menu_item}>О клубе</li>
+                    <li className={s.menu_item}><Link to="/" className={s.link}>Главная</Link></li>
+                    <li className={s.menu_item}><Link to="/about-club" className={s.link}>О клубе</Link></li>
                     <li className={s.menu_item}>Турниры</li>
-                    <li className={s.menu_item}>Новости</li>
+                    <li className={s.menu_item}><Link to="/news" className={s.link}>Новости</Link></li>
                     <li className={s.menu_item}>Детский теннис</li>
                     <li className={s.menu_item}>Галерея</li>
                     <li className={s.menu_item}>Цены</li>
