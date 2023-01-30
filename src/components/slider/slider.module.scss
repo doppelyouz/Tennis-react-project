@@ -1,0 +1,50 @@
+.slider {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+  
+    .container {
+      width: 100%;
+      max-width: 1336px;
+      padding: 0 20px;
+    }
+  }
+  
+  .head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  
+    .sliderButts {
+      display: flex;
+      gap: 15px;
+  
+      .button {
+        width: 45px;
+        height: 45px;
+        color: white;
+        background-color: hsla(246, 38%, 66%, 1);
+      }
+    }
+  }
+  
+  .description {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 36px;
+  }
+  
+  .slideContainer {
+    margin-top: 60px;
+    border: 1px solid hsla(30, 58%, 93%, 1);
+    padding: 25px 20px;
+    width: 100%;
+  
+    .slide {
+        max-height: 500px;
+    }
+  }
+  

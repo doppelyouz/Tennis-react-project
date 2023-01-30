@@ -1,28 +1,19 @@
 import React from 'react'
-import { Swiper, SwiperSlide } from 'swiper/react';
+
+import Slider from '../../slider';
 
 import s from './photoKart.module.scss'
 import "swiper/css";
 import "swiper/css/navigation";
 
-import swiper1 from './swiper1.png';
-
-import { Navigation } from "swiper";
-
+import slider1 from './swiper1.png';
+import slider2 from './swiper2.png';
+const images = [slider1, slider2];
 
 const PhotoKart = () => {
   return (
     <div className={s.photoKart}>
-        <h2 className={s.photoKart_title}>Фото кортов</h2>
-        <Swiper navigation={true} modules={[Navigation]} className={s.mySwiper + " " + s.swiper}>
-            <SwiperSlide className={s.swiper_slide}>
-                <img src={swiper1} alt="swiperPhoto" />
-                <div className={s.swiperTitle}>Летний корт</div>
-            </SwiperSlide>
-            <SwiperSlide className={s.swiper_slide}>Slide 2</SwiperSlide>
-            <SwiperSlide className={s.swiper_slide}>Slide 3</SwiperSlide>
-            <SwiperSlide className={s.swiper_slide}>Slide 4</SwiperSlide>
-        </Swiper>
+        <Slider title="Фото кортов" images={images} />
     </div>
   )
 }
