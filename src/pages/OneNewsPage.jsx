@@ -23,12 +23,12 @@ const OneNewsPage = () => {
   const {title, img, titleInfo, time} = news;
   return (
     <>
-      <Header img={NewsImage} title={title} />
+      <Header img={NewsImage} title={title} page="NewsPage" />
       <div className="container">
         <OneBigNews img={img} titleInfo={titleInfo} time={time} title={title} />
         <News />
       </div>
-      <Footer />
+      <Footer page="NewsPage" />
   </>
   )
 }

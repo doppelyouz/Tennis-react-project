@@ -1,0 +1,58 @@
+.sportClub {
+    margin: 0 100px;
+    display: flex;
+    align-items: center;
+    .sportClub__image {
+        max-height: 514px;
+        max-width: 526px;
+        .sportClub__tennisImage {
+            position: relative;
+            height: 100%;
+            width: 100%;
+        }
+    }
+    .infoAboutSportClub {
+        margin-left: -76px;
+        width: 636px;
+        height: 654px;
+        .containerSportClub {
+            height: 100%;
+            width: 100%;
+            padding: 70px 60px 80px 145px;
+            background-color: #F7ECE1;
+            .sportClub__title {
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 140%;
+                margin-bottom: 25px;
+            }
+            .sportClub__desc {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 140%;
+                margin-bottom: 35px;
+            }
+            .list__title {
+                font-weight: 600;
+                font-size: 21px;
+                line-height: 140%;
+                margin-bottom: 25px;
+            }
+            .list__item {
+                display: flex;
+                align-items: center;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 140%;
+                margin-bottom: 15px;
+            }
+            .square {
+                width: 8px;
+                height: 8px;
+                margin-right: 23px;
+                color:#8D86C9;
+            }
+        }
+    }
+    margin-bottom: 150px;
+}
