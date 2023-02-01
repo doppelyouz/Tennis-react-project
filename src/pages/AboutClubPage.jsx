@@ -11,7 +11,7 @@ import './pages.scss';
 const AboutClubPage = () => {
   return (
     <>
-        <Header img={aboutClubImage} title="О клубе" />
+        <Header img={aboutClubImage} title="О клубе" page="AboutPage"/>
         <div className="container">
           <PhotoKart />
           <AboutClub />

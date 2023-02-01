@@ -12,11 +12,11 @@ import './pages.scss';
 const NewsPage = () => {
   return (
     <>
-      <Header img={NewsImage} title="Новости" />
+      <Header img={NewsImage} title="Новости" page="NewsPage"/>
       <div className="container">
         <News />
       </div>
-      <Footer />
+      <Footer page="NewsPage"/>
     </>
   )
 }

@@ -9,17 +9,18 @@ import {Link} from "react-router-dom";
 
 import s from './header.module.scss'
 
-const Header = ({img, title, Component}) => {
+const Header = ({img, title, Component, page}) => {
+  console.log(page);
   return (
     <div className={s.header} style={{background: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("${img}")`}}>
       <div className={s.container}>
         <img src={logo} alt="logo" className={s.logo} />
         <nav>
           <ul className={s.menu}>
-            <li className={s.menu_item}><Link to="/" className={s.link}>Главная</Link></li>
-            <li className={s.menu_item}><Link to="/about-club" className={s.link}>О клубе</Link></li>
+            <li className={s.menu_item}><Link to="/" className={s.link + " " + (page === "HomePage" ? s.active : null)}>Главная</Link></li>
+            <li className={s.menu_item}><Link to="/about-club" className={s.link + " " + (page === "AboutPage" ? s.active : null)}>О клубе</Link></li>
             <li className={s.menu_item}>Турниры</li>
-            <li className={s.menu_item}><Link to="/news" className={s.link}>Новости</Link></li>
+            <li className={s.menu_item}><Link to="/news" className={s.link + " " + (page === "NewsPage" ? s.active : null)}>Новости</Link></li>
             <li className={s.menu_item}>Детский теннис</li>
             <li className={s.menu_item}>Галерея</li>
             <li className={s.menu_item}>Цены</li>

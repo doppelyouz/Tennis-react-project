@@ -13,14 +13,14 @@ import './pages.scss';
 const AboutClubPage = () => {
   return (
     <>
-        <Header img={mainImage} title="Петербургский теннисный клуб имени М.А. Пасечникова" Component={BannerMain}/>
+        <Header img={mainImage} title="Петербургский теннисный клуб имени М.А. Пасечникова" Component={BannerMain} page="HomePage"/>
         <div className="container">
             <ImagesInfo />
             <SportClub />
             <CoachingStaff />
             <ServicesAndPrices />
         </div>
-        <Footer />
+        <Footer page="HomePage"/>
     </>
   )
 }
