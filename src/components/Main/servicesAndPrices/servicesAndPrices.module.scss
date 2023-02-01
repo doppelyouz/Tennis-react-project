@@ -1,0 +1,33 @@
+.servicesAndPrices {
+    display: flex;
+    gap: 130px;
+    .prices {
+        width: 50%;
+        .prices__title {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 140%;
+            margin-bottom: 75px;
+        }
+        .prices__item {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            padding: 15px 30px;
+            color: white;
+            font-weight: 600;
+            font-size: 21px;
+            line-height: 140%;
+            background: #8D86C9;
+            margin-bottom: 30px;
+            :last-child {
+                margin-bottom: 0px;
+            }
+        }
+    }
+    .services {
+        width: 50%;
+    }
+    margin-bottom: 150px;
+}

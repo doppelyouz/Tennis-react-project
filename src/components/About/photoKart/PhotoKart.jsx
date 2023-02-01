@@ -6,14 +6,12 @@ import s from './photoKart.module.scss'
 import "swiper/css";
 import "swiper/css/navigation";
 
-import slider1 from './swiper1.png';
-import slider2 from './swiper2.png';
-const images = [slider1, slider2];
+import {photoCartData} from '../../../data/photoCartData';
 
 const PhotoKart = () => {
   return (
     <div className={s.photoKart}>
-        <Slider title="Фото кортов" images={images} />
+        <Slider title="Фото кортов" images={photoCartData} />
     </div>
   )
 }

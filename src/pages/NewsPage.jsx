@@ -16,7 +16,7 @@ const NewsPage = () => {
       <div className="container">
         <News />
       </div>
-      <Footer page="NewsPage"/>
+        <Footer page="NewsPage"/>
     </>
   )
 }
