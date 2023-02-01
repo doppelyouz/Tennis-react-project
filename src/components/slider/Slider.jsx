@@ -36,7 +36,7 @@ function Slider({title, images}) {
               return (
                 <SwiperSlide>
                   <div className={s.slide}>
-                    <img src={i} alt={i} className={s.img} />
+                    <img src={i.img} alt={i} className={s.img} />
                   </div>
                 </SwiperSlide>
               )

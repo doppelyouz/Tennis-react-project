@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { PhotoKart, AboutClub, Rules} from '../components/About'
+import { PhotoKart, AboutClub, Rules} from '../components/About/photoKart'
 import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
 
@@ -17,7 +17,7 @@ const AboutClubPage = () => {
           <AboutClub />
           <Rules />
         </div>
-        <Footer />
+        <Footer page="AboutPage"/>
     </>
   )
 }
